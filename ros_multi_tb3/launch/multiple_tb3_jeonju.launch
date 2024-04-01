@@ -5,19 +5,19 @@
 
   <!-- turtle bot declation --> 
   <arg name='third_tb3' default="tb3_0"/>
-  <arg name="third_tb3_x_pos" default=" 0.9"/>
+  <arg name="third_tb3_x_pos" default="-18"/>
   <arg name="third_tb3_y_pos" default=" 3.3"/>
   <arg name="third_tb3_z_pos" default=" 0.0"/>
   <arg name="third_tb3_yaw"   default=" 0.0"/>
   
   <arg name='first_tb3' default="tb3_1"/>
-  <arg name="first_tb3_x_pos" default="0.9"/>
+  <arg name="first_tb3_x_pos" default="-18"/>
   <arg name="first_tb3_y_pos" default=" 1.7"/>
   <arg name="first_tb3_z_pos" default=" 0.0"/>
   <arg name="first_tb3_yaw"   default=" 0.0"/>
 
   <arg name='second_tb3' default="tb3_2"/>
-  <arg name="second_tb3_x_pos" default=" 0.9"/>
+  <arg name="second_tb3_x_pos" default="-18"/>
   <arg name="second_tb3_y_pos" default=" 2.5"/>
   <arg name="second_tb3_z_pos" default=" 0.0"/>
   <arg name="second_tb3_yaw"   default=" 0.0"/>
@@ -26,7 +26,7 @@
   <!-- launch gazebos from the data -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <!-- <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/turtlebot3_house.world"/> -->
-    <arg name="world_name" value="$(find ros_multi_tb3)/worlds/turtlebot3_house_mod.world"/>
+    <arg name="world_name" value="$(find ros_multi_tb3)/worlds/jeonju.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
